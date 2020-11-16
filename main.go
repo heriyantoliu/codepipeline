@@ -14,6 +14,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbattribute"
 )
 
+// Movie Entity
 type Movie struct {
 	ID   string `json:"id"`
 	Name string `json:"name"`
